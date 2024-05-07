@@ -1,0 +1,13 @@
+.heroImg {
+    height: 50%;
+    width: 50%;
+}
+
+.nextButton {
+    margin-bottom: 1rem;
+    background-color: lightgray;
+}
+
+.list {
+    list-style-type: none;
+}

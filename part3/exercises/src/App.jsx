@@ -1,18 +1,16 @@
-import { useState } from 'react'
+import HobbyIntroduction from './components/Introduction'
+import FavoriteHeroes from './components/FavoriteHeroes'
 import './App.css'
-import HobbyIntroduction from './components/Introduction';
-import MyProjects from './components/Projects';
 
 function App() {
 
   return (
-    <>
-      <div className="App">
-	  <h1>My Hobby: Needlepoint</h1>
-	  <HobbyIntroduction />
-	  <MyProjects />
-      </div>
-    </>
+    <div className='App'>
+      <h1>My Hobby: Overwatch</h1>
+      <HobbyIntroduction/>
+      <h2>My Favorite Heroes to Play</h2>
+      <FavoriteHeroes/>
+    </div>
   )
 }
 
